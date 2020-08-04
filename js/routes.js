@@ -54,6 +54,19 @@
                 resolve: {
                     items: ['$stateParams', 'CodeService', function ($stateParams, CodeService) {
                         return CodeService.getfinal($stateParams.num).then(function (items) {
+                            // console.log(items.data);
+                            // String.prototype.escapeSpecialChars = function() {
+                            //     return this.replace(/\\n/g, "\\n")
+                            //                .replace(/\\'/g, "\\'")
+                            //                .replace(/\\"/g, '\\"')
+                            //                .replace(/\\&/g, "\\&")
+                            //                .replace(/\\r/g, "\\r")
+                            //                .replace(/\\t/g, "\\t")
+                            //                .replace(/\\b/g, "\\b")
+                            //                .replace(/\\f/g, "\\f");
+                            // };
+                            // items.data.code=items.data.code.escapeSpecialChars();
+                            // console.log(items.data)
                             return items;
                         })
                     }]
