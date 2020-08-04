@@ -1,0 +1,23 @@
+#navi {
+    background: transparent !important;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1554306274-f23873d9a26c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#topjumbo {
+    margin-top: 200px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.row {
+    margin: 30px;
+}
+
+.img-thumbnail {
+    margin: 10px;
+}
