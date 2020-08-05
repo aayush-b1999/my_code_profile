@@ -2,6 +2,11 @@
     background: transparent !important;
 }
 
+.nav-link{
+    color: #64ffda!important;
+    font-weight: bolder;
+}
+
 body {
     background: url(https://images.unsplash.com/photo-1554306274-f23873d9a26c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
