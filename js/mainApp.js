@@ -26,6 +26,8 @@
     FinalController.$inject=['items'];
     function FinalController(items) {
         var list=this;
+        items.data.code=[items.data.code];
+        // console.log(items.data.code)
         this.items=items;
     }
 })();
